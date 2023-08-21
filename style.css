@@ -119,7 +119,7 @@ button {
 {
     display: flex;
     flex-direction: column;
-
+    padding-bottom: 80px;
 }
 
 .mid-information{
@@ -134,13 +134,6 @@ button {
     align-self: center;
 }
 
-.look {
-    height: 190px;
-    width: 190px;
-    border-radius: 18px;
-}
-
-
 .center {
     display: flex;
     flex-direction: column;
@@ -149,13 +142,15 @@ button {
 }
 
 .icon {
+    height: 190px;
+    width: 190px;
+    border-radius: 18px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: cadetblue;
     padding: 3px;
     border-radius: 20px;
-
 }
 
 .header-information {
@@ -165,5 +160,94 @@ button {
 }
 
 .text {
+    font-size: 18px;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+    padding-left: 200px;
+    background-color: #E5E7EB;
+    justify-content: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.first-text{
+    font-size: 36px;
+    font-style: italic; 
+    color: #1f2937;
+
+}
+
+.second-text{
+    font-size: 28px;
+    align-self: flex-end;
+
+}
+
+/* Action section */
+
+.action{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.button-action{
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around ;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    border-radius: 15px;
+    background-color: #3882f6;
+    gap: 25px;
+
+}
+
+.first-action {
+    font-size: 30px;  
+}
+
+.second-action {
+    font-size: 18px;
+}
+
+.fotter {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 18px;
 }
